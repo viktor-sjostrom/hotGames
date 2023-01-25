@@ -42,11 +42,7 @@ function getGames(all) {
                     var gameRank = value.rank;
                     var gamePublished = value.yearPublished;
 
-                    // $('body').append($('<article>',{
-                    //     text: gameName
-                    // }))
-                    items.push("<img src="+ gameThumbnail+" alt='Games thumbnail'>")
-                    items.push("<article><h2>"+gameRank+". "+gameName+"</h2><p>Publicerat: </p>"+gamePublished+"</article>"); //Plocka dynamiskt ut namnet på spelet ur JSON-listan och se till att det visas mellan h2-taggarna. Se till att namnet föregås av rätt placering på heta listan (1, 2, 3 .. n). Plocka dynamiskt ut årtalet då spelet publicerades ur JSON-listan och se till att det visas efter ”Publicerat: ”. Kom ihåg att även uppdatera ev variabler med nya värden här. (Se vidare punkt 7a, 7b och 7c i uppgiftsbeskrivningen under "Kom igång med uppgiften"). Förutom namn, årtal och listplacering på spelen skall även bilder skrivas ut. Externa URL:er till bilderna kan hämtas ut från svaret vi fått från webbtjänsten, mer specifikt som egenskapen thumbnail. Se till att infoga bild-element direkt under föräldraelementet article. (Se vidare punkt 8 i uppgiftsbeskrivningen under "Kom igång med uppgiften").
+                    items.push("<article><img src="+ gameThumbnail+" alt='Games thumbnail'><h2>"+gameRank+". "+gameName+"</h2><p>Publicerat: </p>"+gamePublished+"</article>"); //Plocka dynamiskt ut namnet på spelet ur JSON-listan och se till att det visas mellan h2-taggarna. Se till att namnet föregås av rätt placering på heta listan (1, 2, 3 .. n). Plocka dynamiskt ut årtalet då spelet publicerades ur JSON-listan och se till att det visas efter ”Publicerat: ”. Kom ihåg att även uppdatera ev variabler med nya värden här. (Se vidare punkt 7a, 7b och 7c i uppgiftsbeskrivningen under "Kom igång med uppgiften"). Förutom namn, årtal och listplacering på spelen skall även bilder skrivas ut. Externa URL:er till bilderna kan hämtas ut från svaret vi fått från webbtjänsten, mer specifikt som egenskapen thumbnail. Se till att infoga bild-element direkt under föräldraelementet article. (Se vidare punkt 8 i uppgiftsbeskrivningen under "Kom igång med uppgiften").
 
                 });
             } else {
@@ -56,7 +52,7 @@ function getGames(all) {
             $("#games").html(items.join(""));
             //Uppdatera sidfoten med antal spel som faktiskt visas. Denna siffra tas fram dynamiskt och förändras därför beroende på vilken radio-knapp som är förkryssad. (Se vidare punkt 11 i uppgiftsbeskrivningen under "Kom igång med uppgiften").
         }
-        
+
         //error: function(error) {
         //    console.log('Error ${error}');
         //}
