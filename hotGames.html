@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Hotness</title>
+    <link rel="stylesheet" type="text/css" href="css/hotGames.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>THE HOTNESS</h1>
+            <nav>
+                <input type="radio" id="showAll" name="showAll" value="true" checked>
+                <label for="showAll">Visa alla spel</label>&nbsp;
+                <input type="radio" id="onlyPublished" name="showAll" value="false">
+                <label for="onlyPublished">Endast publicerade</label>
+            </nav>
+        </header>
+        <main>
+            <section id="games">
+            </section>
+        </main>
+        <footer><a href="#wrapper">Tillbaka</a><span id="noOfGames"></span></footer>
+    </div>
+    <script src="js/hotGames.js"></script>
+</body>
+
+</html>
