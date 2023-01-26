@@ -12,7 +12,7 @@ $(document).ready(function () {
 
     $("#onlyPublished").on("click", function () {
         getGames(false);
-    })
+    });
     //Här skapar ni en händelsehanterare i jQuery som lyssnar på om användaren klickar i radio-knappen
     // ”Endast publicerad”. I händelse av en sådan klickning ska händelsehanteraren trigga en funktion,
     // som i sin tur ska anropa getGames, men med false som argument. (Se vidare punkt 9 i
@@ -61,7 +61,10 @@ function getGames(all) {
                     // föräldraelementet article. (Se vidare punkt 8 i uppgiftsbeskrivningen under "Kom igång med uppgiften").
 
                     //Fixa alt - texten
-                    items.push("<article><img src="+ gameThumbnail+" alt='Games thumbnail'><h2>"+gameRank+". "+gameName+"</h2><p>Publicerat: "+gamePublished+"</p></article>");
+                    //items.push("<article><img src="+ gameThumbnail+" alt='Games thumbnail'><h2>"+gameRank+". "+gameName+"</h2><p>Publicerat: "+gamePublished+"</p></article>");
+                    items.push("<article><img src='" + gameThumbnail + "' alt='Games thumbnail'>" +
+                        "<h2>" + gameRank + ". " + gameName + "</h2>" +
+                        "<p>Publicerat: " + gamePublished + "</p></article>");
 
                 });
             } else {
@@ -109,4 +112,4 @@ function getGames(all) {
         //    console.log('Error ${error}');
         //}
     });
-};
+}
