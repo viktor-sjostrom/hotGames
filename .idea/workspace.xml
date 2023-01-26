@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fdb27ff8-5e79-4919-8b58-b43645e78ea6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/hotGames.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/hotGames.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +34,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -47,6 +49,7 @@
       <workItem from="1674671290427" duration="23000" />
       <workItem from="1674671361152" duration="2000" />
       <workItem from="1674671641309" duration="4581000" />
+      <workItem from="1674755946866" duration="1451000" />
     </task>
     <servers />
   </component>

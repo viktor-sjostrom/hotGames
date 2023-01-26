@@ -80,7 +80,11 @@ function getGames(all) {
 
                     if(gamePublished !== 2023) {
                         numberOfGames++;
-                        items.push("<article><img src="+ gameThumbnail+" alt='Games thumbnail'><h2>"+gameRank+". "+gameName+"</h2><p>Publicerat: "+gamePublished+"</p></article>");
+                        //items.push("<article><img src="+ gameThumbnail+" alt='Games thumbnail'><h2>"+gameRank+". "+gameName+"</h2><p>Publicerat: "+gamePublished+"</p></article>");
+                        items.push("<article><img src='" + gameThumbnail + "' alt='Games thumbnail'>" +
+                            "<h2>" + gameRank + ". " + gameName + "</h2>" +
+                            "<p>Publicerat: " + gamePublished + "</p></article>");
+
 
                     }
                 });
