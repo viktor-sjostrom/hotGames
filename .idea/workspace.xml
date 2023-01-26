@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdb27ff8-5e79-4919-8b58-b43645e78ea6" name="Changes" comment="" />
+    <list default="true" id="fdb27ff8-5e79-4919-8b58-b43645e78ea6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/css/hotGames.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/hotGames.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +48,7 @@
       <workItem from="1674671290427" duration="23000" />
       <workItem from="1674671361152" duration="2000" />
       <workItem from="1674671641309" duration="4581000" />
-      <workItem from="1674755946866" duration="3715000" />
+      <workItem from="1674755946866" duration="4298000" />
     </task>
     <servers />
   </component>

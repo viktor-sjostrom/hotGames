@@ -30,6 +30,7 @@ header {
 .font-effect-fire {
     font-family: "Sofia", sans-serif;
     font-size: 40px;
+    font-weight: normal;
 }
 
 form {
