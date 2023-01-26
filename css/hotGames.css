@@ -72,7 +72,7 @@ article {
     font-style: italic;
 }
 
-<!-- h1 -->
+h1,
 h2 {
     font-family: "Century Gothic", sans-serif;
     font-size: 3em;
