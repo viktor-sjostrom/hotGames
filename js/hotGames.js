@@ -90,7 +90,9 @@ function getGames(all) {
             $("#games").html(items.join(""));
 
             //Få till så de står "Antal spel" innan nummer + fixa siffran som misstämmer atm
-            $("#noOfGames").html(items.push("<p>Antal spel: "+numberOfGames+"</p>"));
+            //$("#noOfGames").html(items.push("<p>Antal spel: "+numberOfGames+"</p>"));
+            
+            $("#noOfGames").text("Antal spel: " + numberOfGames);
 
 
             //Uppdatera sidfoten med antal spel som faktiskt visas.
