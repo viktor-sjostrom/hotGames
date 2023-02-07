@@ -28,7 +28,7 @@ function getGames(all) {
         dataType: "json", //Data saknas. Se vidare punkt 6 i uppgiftsbeskrivningen under "Kom igång med uppgiften".
         type: 'GET',
         data: {
-            get_param: 'value'
+            //get_param: 'value'
             //callback: //Data saknas. Se vidare punkt 6 i uppgiftsbeskrivningen under "Kom igång med uppgiften".
         },
         // Om förfrågan gått bra...
