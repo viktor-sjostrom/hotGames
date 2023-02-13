@@ -25,6 +25,7 @@ function getGames(all) {
 
     $.ajax({
         url: "http://bgg-json.azurewebsites.net/hot", //Data saknas. Se vidare punkt 6 i uppgiftsbeskrivningen under "Kom igång med uppgiften".
+        //ändra till jsopp?
         dataType: "json", //Data saknas. Se vidare punkt 6 i uppgiftsbeskrivningen under "Kom igång med uppgiften".
         type: 'GET',
         data: {
@@ -60,7 +61,7 @@ function getGames(all) {
                     // mer specifikt som egenskapen thumbnail. Se till att infoga bild-element direkt under
                     // föräldraelementet article. (Se vidare punkt 8 i uppgiftsbeskrivningen under "Kom igång med uppgiften").
 
-                    //Fixa alt - texten
+                    //ändra till this.{attribut}
                     //items.push("<article><img src="+ gameThumbnail+" alt='Games thumbnail'><h2>"+gameRank+". "+gameName+"</h2><p>Publicerat: "+gamePublished+"</p></article>");
                     items.push("<article><img src='" + gameThumbnail + "' alt='Games thumbnail'>" +
                         "<h2>" + gameRank + ". " + gameName + "</h2>" +
