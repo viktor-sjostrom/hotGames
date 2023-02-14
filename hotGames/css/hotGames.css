@@ -1,0 +1,129 @@
+/* http://www.colourlovers.com/palette/1001240/Royal_Flush */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: "Century Gothic", sans-serif;
+    background-color: white;
+}
+
+
+/* För att få innehållet att centreras på sidan kan du lägga alla följande
+element i en div med klassen .wrapper */
+
+header {
+    padding: 10px 10px 15px 10px;
+    background-color: palevioletred;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: solid 1px darkslateblue;
+}
+
+/*
+    Ändrade fonten på h1, för att få en liten spin på designen
+ */
+.font-effect-fire {
+    font-family: "Sofia", sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+form {
+    text-align: left;
+}
+
+nav {
+    padding: 20px 10px 10px 10px;
+}
+
+fieldset,
+legend {
+    padding: 0px 5px 5px 5px;
+    text-align: left;
+}
+
+label {
+    padding-right: 10px;
+}
+
+div#wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+section {
+    width: 100%;
+}
+
+article {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    font-style: italic;
+}
+
+h1,
+h2 {
+    font-family: "Century Gothic", sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    color: darkblue;
+}
+
+h1 {
+    letter-spacing: 10px;
+    text-shadow: 3px 3px darkgray;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+a,
+span#noOfGames {
+    font-weight: bold;
+    color: aliceblue;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+span {
+    margin-right: 10px;
+}
+
+span.published {
+    font-size: 0.8em;
+}
+
+img.thumbnail {
+    max-height: 150px;
+    max-width: 150px;
+}
+
+footer {
+    background-color: darkslateblue;
+    padding: 10px;
+    text-align: left;
+}
+
+#noOfGames {
+    display: inline-block;
+    color: white;
+    float: right;
+}
